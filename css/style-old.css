@@ -1,0 +1,153 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*=================== COMMON=================== */
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ================ REVIEWS STYLES ================ */
+
+.reviews-list {
+  display: flex;
+  column-gap: 25px;
+  margin-bottom: 100px;
+}
+
+.reviews-title {
+  margin-bottom: 25px;
+  max-width: 553px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.reviews-text {
+  max-width: 553px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #141414;
+}
+
+.reviews-list-item {
+  position: relative;
+  width: calc((100% - 50px) / 3);
+  padding: 20px;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+}
+
+.reviews-list-avatar {
+  margin-bottom: 24px;
+}
+
+.reviews-list-fullname {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.reviews-list-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(20, 20, 20, 0.4);
+}
+
+.accent-color {
+  color: #576f35;
+}
+/* ================ /REVIEWS STYLES ================ */
